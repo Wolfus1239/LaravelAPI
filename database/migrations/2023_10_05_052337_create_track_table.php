@@ -31,7 +31,7 @@ class CreateTrackTable extends Migration
             $table->string('countries')->nullable();
             $table->unsignedBigInteger('label_id')->nullable();
             $table->integer('position')->nullable();
-            $table->string('description')->nullable();
+            $table->text('description')->nullable();
             $table->string('cover')->nullable();
             $table->integer('total_count')->nullable();
             $table->integer('total_size')->nullable();
